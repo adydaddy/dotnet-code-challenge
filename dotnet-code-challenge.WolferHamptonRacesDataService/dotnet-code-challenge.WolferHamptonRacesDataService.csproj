@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>dotnet_code_challenge.WolferHamptonRacesDataService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FeedData\Wolferhampton_Race1.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="FeedData\Wolferhampton_Race1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotnet-code-challenge.CrossCutting\dotnet-code-challenge.CrossCutting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FeedData\RetrieveWolferHamptonRaceDataService.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+</Project>
