@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace dotnet_code_challenge.Models.CaulfieldRace
+namespace dotnet_code_challenge.CaulFieldRacesDataService.Models
 {
     [XmlRoot(ElementName = "price")]
     public class Price
@@ -9,5 +9,6 @@ namespace dotnet_code_challenge.Models.CaulfieldRace
         public Horses Horses { get; set; }
         [XmlElement(ElementName = "priceType")]
         public string PriceType { get; set; }
+    
     }
 }

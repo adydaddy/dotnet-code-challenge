@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace dotnet_code_challenge.Models.CaulfieldRace
+namespace dotnet_code_challenge.CaulFieldRacesDataService.Models
 {
     [XmlRoot(ElementName = "horses")]
     public class Horses

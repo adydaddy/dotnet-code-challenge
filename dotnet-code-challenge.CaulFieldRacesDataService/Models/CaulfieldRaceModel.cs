@@ -1,27 +1,24 @@
-﻿using System.Xml.Serialization;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
 
-namespace dotnet_code_challenge.Models.CaulfieldRace
+namespace dotnet_code_challenge.CaulFieldRacesDataService.Models
 {
-    [XmlRoot(ElementName = "race")]
-    public class Race
+    [XmlRoot(ElementName = "meeting")]
+    public class CaulfieldRaceModel
     {
-        [XmlElement(ElementName = "distance")]
-        public Distance Distance { get; set; }
-        [XmlElement(ElementName = "horses")]
-        public Horses Horses { get; set; }
-        [XmlAttribute(AttributeName = "id")]
-        public string Id { get; set; }
-        [XmlAttribute(AttributeName = "name")]
-        public string Name { get; set; }
-        [XmlAttribute(AttributeName = "number")]
-        public string Number { get; set; }
-        [XmlElement(ElementName = "NumberOfRunners")]
-        public string NumberOfRunners { get; set; }
-        [XmlElement(ElementName = "prices")]
-        public Prices Prices { get; set; }
-        [XmlElement(ElementName = "start_time")]
-        public string Start_time { get; set; }
-        [XmlAttribute(AttributeName = "Status")]
-        public string Status { get; set; }
+        [XmlElement(ElementName = "date")]
+        public string Date { get; set; }
+        [XmlElement(ElementName = "Meetingid")]
+        public string Meetingid { get; set; }
+        [XmlElement(ElementName = "MeetingType")]
+        public string MeetingType { get; set; }
+        [XmlElement(ElementName = "races")]
+        public List<Races> Races { get; set; }
+        [XmlElement(ElementName = "track")]
+        public Track Track { get; set; }
+        [XmlAttribute(AttributeName = "xsd", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Xsd { get; set; }
+        [XmlAttribute(AttributeName = "xsi", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Xsi { get; set; }
     }
 }

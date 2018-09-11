@@ -8,7 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="FeedData\" />
+    <PackageReference Include="Autofac" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotnet-code-challenge.CaulFieldRacesDataService\dotnet-code-challenge.CaulFieldRacesDataService.csproj" />
+    <ProjectReference Include="..\dotnet-code-challenge.Models\dotnet-code-challenge.Models.csproj" />
+    <ProjectReference Include="..\dotnet-code-challenge.WolferHamptonRacesDataService\dotnet-code-challenge.WolferHamptonRacesDataService.csproj" />
   </ItemGroup>
 
 </Project>

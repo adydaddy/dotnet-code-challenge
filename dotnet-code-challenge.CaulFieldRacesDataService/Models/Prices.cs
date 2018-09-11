@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace dotnet_code_challenge.Models.CaulfieldRace
+namespace dotnet_code_challenge.CaulFieldRacesDataService.Models
 {
     [XmlRoot(ElementName = "prices")]
     public class Prices

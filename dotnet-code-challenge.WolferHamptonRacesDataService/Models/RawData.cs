@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace dotnet_code_challenge.Models
+namespace dotnet_code_challenge.WolferHamptonRacesDataService.Models
 {
     public partial class RawData
     {

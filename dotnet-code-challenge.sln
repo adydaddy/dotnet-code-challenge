@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-code-challenge.Test"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-code-challenge.Models", "dotnet-code-challenge.Models\dotnet-code-challenge.Models.csproj", "{50319351-0847-4984-B188-311075CB7174}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-code-challenge.CaulFieldRacesDataService", "dotnet-code-challenge.CaulFieldRacesDataService\dotnet-code-challenge.CaulFieldRacesDataService.csproj", "{DF5717E3-8CC7-47C1-9E64-2CFE3B163A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-code-challenge.CaulFieldRacesDataService", "dotnet-code-challenge.CaulFieldRacesDataService\dotnet-code-challenge.CaulFieldRacesDataService.csproj", "{DF5717E3-8CC7-47C1-9E64-2CFE3B163A9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-code-challenge.WolferHamptonRacesDataService", "dotnet-code-challenge.WolferHamptonRacesDataService\dotnet-code-challenge.WolferHamptonRacesDataService.csproj", "{1C6BBD22-1853-4BCA-AD94-D9B5FDD8C42A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-code-challenge.WolferHamptonRacesDataService", "dotnet-code-challenge.WolferHamptonRacesDataService\dotnet-code-challenge.WolferHamptonRacesDataService.csproj", "{1C6BBD22-1853-4BCA-AD94-D9B5FDD8C42A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-code-challenge.CrossCutting", "dotnet-code-challenge.CrossCutting\dotnet-code-challenge.CrossCutting.csproj", "{813AD80E-E74B-4486-A9C8-FCB0750C1CF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1C6BBD22-1853-4BCA-AD94-D9B5FDD8C42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C6BBD22-1853-4BCA-AD94-D9B5FDD8C42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C6BBD22-1853-4BCA-AD94-D9B5FDD8C42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813AD80E-E74B-4486-A9C8-FCB0750C1CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813AD80E-E74B-4486-A9C8-FCB0750C1CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813AD80E-E74B-4486-A9C8-FCB0750C1CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813AD80E-E74B-4486-A9C8-FCB0750C1CF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

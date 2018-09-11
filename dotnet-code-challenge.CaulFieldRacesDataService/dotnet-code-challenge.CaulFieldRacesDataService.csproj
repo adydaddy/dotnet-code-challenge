@@ -5,4 +5,24 @@
     <RootNamespace>dotnet_code_challenge.CaulFieldRacesDataService</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="FeedData\Caulfield_Race1.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="FeedData\Caulfield_Race1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotnet-code-challenge.CrossCutting\dotnet-code-challenge.CrossCutting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FeedData\RetrieveCaulFieldRacesDataService.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
 </Project>
