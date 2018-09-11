@@ -1,3 +1,16 @@
+# Coding Standard
+
+The code follows SOLID design principles 
+
+# How to get started
+
+1. Clone the repo
+2. Run the solution
+3. The application outputs a horse names every 2 seconds based on the price
+4. Uses AutoFac and Newtonsoft.Json packages
+
+# Original Readme
+
 # .NET Code Challenge
 
 You've been provided with the shell of a .Net application in Visual Studio with some sample inputs 
